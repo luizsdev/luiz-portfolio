@@ -35,10 +35,10 @@ export const Hero = () => {
               <CaretDown size={18} className="animate-bounce ml-1" />
             </a>
             <a
-              href="#projects"
+              href="https://drive.google.com/uc?export=download&id=1IpdQoBrjxitBVJnm21hKMWpjVLYjRj3u"
               className="btn btn-secondary btn-sm md:btn-md flex justify-center items-center"
             >
-              <DownloadSimple  size={18} className="mr-1"  /> <a href="https://drive.google.com/uc?export=download&id=1IpdQoBrjxitBVJnm21hKMWpjVLYjRj3u">Download CV</a>  
+              <DownloadSimple  size={18} className="mr-1"  /> Download CV
             </a>
           </div>
         </div>
