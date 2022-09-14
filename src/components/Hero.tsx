@@ -24,7 +24,7 @@ export const Hero = () => {
           </h1>
 
           <p className="py-6">
-            I&apos;m a back-end developer based in Brazil   wadawdawddaw...
+            I&apos;m a back-end developer based in Brazil
           </p>
           <div className="flex gap-2">
             <a
@@ -38,7 +38,7 @@ export const Hero = () => {
               href="https://drive.google.com/uc?export=download&id=1IpdQoBrjxitBVJnm21hKMWpjVLYjRj3u"
               className="btn btn-secondary btn-sm md:btn-md flex justify-center items-center"
             >
-              <DownloadSimple  size={18} className="mr-1"  /> Download CURRICULO
+              <DownloadSimple  size={18} className="mr-1"  /> Download CV
             </a>
           </div>
         </div>

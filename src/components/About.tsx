@@ -17,13 +17,13 @@ export const About = () => {
           <p className="py-6">
               My name is Luiz, I'm 18 years
               old, I'm at the beginning of
-              my career and I'm open to
-              any kind of opportunity, I
-              really like to learn and teach
-              when possible. I'm fluent in
-              English and a Back-End
-              student, and I'm looking for
-              my first developer job.
+            my career and I'm open to
+            any kind of opportunity, I
+            really like to learn and teach
+            when possible. I'm fluent in
+            English and a Back-End
+            student, and I'm looking for
+            my first developer job.
           </p>
           <div className="flex gap-2">
             <a
