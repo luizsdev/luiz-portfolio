@@ -38,7 +38,7 @@ export const Hero = () => {
               href="https://drive.google.com/uc?export=download&id=1IpdQoBrjxitBVJnm21hKMWpjVLYjRj3u"
               className="btn btn-secondary btn-sm md:btn-md flex justify-center items-center"
             >
-              <DownloadSimple  size={18} className="mr-1"  /> Download CVnn
+              <DownloadSimple  size={18} className="mr-1"  /> Download CURRICULO
             </a>
           </div>
         </div>
