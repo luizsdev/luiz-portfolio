@@ -24,7 +24,7 @@ export const Hero = () => {
           </h1>
 
           <p className="py-6">
-            I&apos;m a back-end developer based in Brazil
+            I&apos;m a back-end developer based in Brazilian estupid
           </p>
           <div className="flex gap-2">
             <a
