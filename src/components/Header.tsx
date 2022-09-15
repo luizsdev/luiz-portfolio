@@ -32,17 +32,7 @@ export const Header = () => {
               <a>Projects</a>
             </a>
             <div className="flex text-secondary justify-center items-center gap-2">
-              <select
-                data-choose-theme
-                className="select select-ghost outline-0 border-0 active:border-0 active:ring-0 focus:border-0 focus:ring-0"
-              >
-                <option value="dracula">Dracula</option>
-                {themes.map((theme) => (
-                  <option key={theme} value={theme}>
-                    {theme}
-                  </option>
-                ))}
-              </select>
+              
             </div>
           </ul>
         </div>
