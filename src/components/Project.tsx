@@ -47,10 +47,12 @@ export const Project = ({
           >
             <GithubLogo size={20} />
           </a>
-          <button className="btn btn-primary btn-sm flex justify-center items-center gap-2">
-            <ArrowSquareOut size={15} />
-            Live Demo
-          </button>
+          <a href="/playground">
+            <button className="btn btn-primary btn-sm flex justify-center items-center gap-2">
+              <ArrowSquareOut size={15} />
+              Live Demo
+            </button>
+          </a>
         </div>
       </div>
     </div>
