@@ -40,8 +40,11 @@ export const Projects = () => {
               mostRecent
             />
           ))}
-          <Project projectTitle=" PRODUCTS API WITH NESTJS" image='https://pbs.twimg.com/profile_images/1110148780991623201/vlqCsAVP_400x400.png' link='https://github.com/luizsdev/Products-API' />
-          
+          <Project
+            projectTitle=" PRODUCTS API WITH NESTJS"
+            image="https://pbs.twimg.com/profile_images/1110148780991623201/vlqCsAVP_400x400.png"
+            link="https://github.com/luizsdev/Products-API"
+          />
         </div>
       </div>
     </>
