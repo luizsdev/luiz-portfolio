@@ -1,4 +1,9 @@
-import { GithubLogo, CaretDown, DownloadSimple, LinkedinLogo } from 'phosphor-react'
+import {
+  GithubLogo,
+  CaretDown,
+  DownloadSimple,
+  LinkedinLogo,
+} from 'phosphor-react'
 import illustration from './assets/illustration-hero.svg'
 
 export const Hero = () => {
@@ -21,19 +26,17 @@ export const Hero = () => {
             >
               <GithubLogo size={20} />
             </a>
-            <a 
-            href="https://www.linkedin.com/in/luizsdev/"
-            className="link link-primary mb-2"
-            target="_blank"
-            rel="noreferrer"
+            <a
+              href="https://www.linkedin.com/in/luizsdev/"
+              className="link link-primary mb-2"
+              target="_blank"
+              rel="noreferrer"
             >
-                <LinkedinLogo size={20}/>
+              <LinkedinLogo size={20} />
             </a>
           </h1>
 
-          <p className="py-6">
-            I&apos;m a back-end developer based in Brazil
-          </p>
+          <p className="py-6">I&apos;m a back-end developer based in Brazil</p>
           <div className="flex gap-2">
             <a
               href="#projects"
@@ -46,7 +49,7 @@ export const Hero = () => {
               href="https://drive.google.com/uc?export=download&id=1IpdQoBrjxitBVJnm21hKMWpjVLYjRj3u"
               className="btn btn-secondary btn-sm md:btn-md flex justify-center items-center"
             >
-              <DownloadSimple  size={18} className="mr-1"  /> Download CV
+              <DownloadSimple size={18} className="mr-1" /> Download CV
             </a>
           </div>
         </div>
