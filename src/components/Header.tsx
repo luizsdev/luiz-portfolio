@@ -31,7 +31,9 @@ export const Header = () => {
             >
               <a>Projects</a>
             </a>
-            <div className="flex text-secondary justify-center items-center gap-2"></div>
+            <div className="flex text-secondary justify-center items-center gap-2">
+              
+            </div>
           </ul>
         </div>
         <div className="flex-none flex sm:hidden">

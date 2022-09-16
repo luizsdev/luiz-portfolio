@@ -15,7 +15,7 @@ export const Project = ({
   description,
   tags,
   image,
-  link,
+  link
 }: ProjectProps) => {
   return (
     <div className="card w-80 xl:w-[21rem] bg-base-100 shadow-xl">
@@ -40,7 +40,7 @@ export const Project = ({
         </div>
         <div className="card-actions justify-between items-center pt-6">
           <a
-            href={link ?? 'https://github.com/luizsdev'}
+             href={link ?? 'https://github.com/luizsdev'}
             target="_blank"
             rel="noreferrer"
             className="link link-secondary transition-all"

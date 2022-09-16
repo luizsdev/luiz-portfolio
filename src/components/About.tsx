@@ -15,11 +15,15 @@ export const About = () => {
         <div className="max-w-full">
           <h1 className="text-5xl font-bold">About me</h1>
           <p className="py-6">
-            My name is Luiz, I&apos;m 18 years old, I&apos;m at the beginning of
-            my career and I&apos;m open to any kind of opportunity, I really
-            like to learn and teach when possible. I&apos;m fluent in English
-            and a Back-End student, and I&apos;m looking for my first developer
-            job.
+              My name is Luiz, I'm 18 years
+              old, I'm at the beginning of
+            my career and I'm open to
+            any kind of opportunity, I
+            really like to learn and teach
+            when possible. I'm fluent in
+            English and a Back-End
+            student, and I'm looking for
+            my first developer job.
           </p>
           <div className="flex gap-2">
             <a
