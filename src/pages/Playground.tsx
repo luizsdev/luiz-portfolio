@@ -20,7 +20,7 @@ export const Playground = () => {
         axios
           .get(url)
           .then((response) => {
-            console.log(response)
+            console.log(response.data)
           })
           .catch((err) => console.log(err))
         break
@@ -54,10 +54,7 @@ export const Playground = () => {
           SEND
         </button>
         <div className="method">
-          <select
-            className="methods select w-full max-w-xs"
-            onChange={handleSelect}
-          >
+          <select className="methods select" onChange={handleSelect}>
             <option disabled selected>
               SELECT THE METHOD
             </option>
