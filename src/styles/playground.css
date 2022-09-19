@@ -4,5 +4,10 @@
     height: 850px;
 }
 .url{
-
+    margin: 20px;
+    width: 500px;
+}
+.methods{
+    margin-left: 20px;
+    width: 200px;
 }
