@@ -6,6 +6,7 @@ export const Playground = () => {
   const [url, setUrl] = useState('')
   const [method, setMethod] = useState('GET')
   const [body, setBody] = useState('')
+  const [response, setResponse] = useState('')
   function handleBody(e: any) {
     setBody(e.target.value)
     console.log(body)
@@ -19,8 +20,9 @@ export const Playground = () => {
       case 'get':
         axios
           .get(url)
-          .then((response) => {
-            console.log(response.data)
+          .then((res) => {
+            setResponse(res.data)
+            console.log(response)
           })
           .catch((err) => console.log(err))
         break
@@ -28,6 +30,7 @@ export const Playground = () => {
         axios
           .post(url, body)
           .then((res) => {
+            setResponse(JSON.stringify(res.data))
             console.log(res)
           })
           .catch((err) => {
@@ -64,11 +67,21 @@ export const Playground = () => {
             <option value="delete">DELETE</option>
           </select>
         </div>
+        <textarea
+          className="textarea response absolute rounded-lg"
+          readOnly
+          value={JSON.stringify(response, undefined, 4)}
+        ></textarea>
         <CodeEditor
           language="json"
-          className="textarea body rounded-lg flex justify-start"
+          className=" textarea body "
           onChange={handleBody}
           placeholder="ENTER JSON"
+          style={{
+            fontSize: 20,
+            fontFamily:
+              'ui-monospace,SFMono-Regular,SF Mono,Consolas,Liberation Mono,Menlo,monospace',
+          }}
         ></CodeEditor>
       </div>
     </div>
