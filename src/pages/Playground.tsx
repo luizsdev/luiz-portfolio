@@ -1,5 +1,7 @@
 import '../styles/playground.css'
 import CodeEditor from '@uiw/react-textarea-code-editor'
+import SyntaxHighligher from 'react-syntax-highlighter'
+import style from 'react-syntax-highlighter/dist/cjs/styles/prism/xonokai'
 import axios from 'axios'
 import { useState } from 'react'
 export const Playground = () => {
@@ -67,14 +69,17 @@ export const Playground = () => {
             <option value="delete">DELETE</option>
           </select>
         </div>
-        <textarea
+        <SyntaxHighligher
+          language="json"
+          style={style}
           className="textarea response absolute rounded-lg"
           readOnly
-          value={JSON.stringify(response, undefined, 4)}
-        ></textarea>
+        >
+          {JSON.stringify(response, undefined, 4)}
+        </SyntaxHighligher>
         <CodeEditor
           language="json"
-          className=" textarea body "
+          className=" textarea body"
           onChange={handleBody}
           placeholder="ENTER JSON"
           style={{
