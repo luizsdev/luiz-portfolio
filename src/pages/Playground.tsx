@@ -1,7 +1,7 @@
 import '../styles/playground.css'
 import CodeEditor from '@uiw/react-textarea-code-editor'
 import SyntaxHighligher from 'react-syntax-highlighter'
-import style from 'react-syntax-highlighter/dist/cjs/styles/prism/xonokai'
+import { dracula } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 import axios from 'axios'
 import { useState } from 'react'
 export const Playground = () => {
@@ -70,8 +70,8 @@ export const Playground = () => {
           </select>
         </div>
         <SyntaxHighligher
+          style={dracula}
           language="json"
-          style={style}
           className="textarea response absolute rounded-lg"
           readOnly
         >
