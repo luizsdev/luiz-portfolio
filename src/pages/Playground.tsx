@@ -11,7 +11,7 @@ export const Playground = () => {
   const [body, setBody] = useState('')
   const [response, setResponse] = useState('')
   function handleBody(e: any) {
-    setBody(e.target.value)
+    setBody(JSON.parse(e.target.value))
     console.log(body)
   }
   function handleSelect(e: any) {
