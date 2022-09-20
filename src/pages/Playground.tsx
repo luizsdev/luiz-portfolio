@@ -5,6 +5,7 @@ import { dracula } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 import axios from 'axios'
 import { useState } from 'react'
 export const Playground = () => {
+  axios.defaults.headers.get['Access-Control-Allow-Origin'] = 'true'
   const [url, setUrl] = useState('')
   const [method, setMethod] = useState('GET')
   const [body, setBody] = useState('')
