@@ -1,4 +1,4 @@
-import { UserPlus } from 'phosphor-react'
+import { UserPlus } from "phosphor-react";
 
 export const About = () => {
   return (
@@ -15,11 +15,12 @@ export const About = () => {
         <div className="max-w-full">
           <h1 className="text-5xl font-bold">About me</h1>
           <p className="py-6">
-            My name is Luiz, I&apos;m 18 years old, I&apos;m at the beginning of
-            my career and I&apos;m open to any kind of opportunity, I really
-            like to learn and teach when possible. I&apos;m fluent in English
-            and a Back-End student, and I&apos;m looking for my first developer
-            job.
+            I'm a young, passionate developer with expertise in both back-end
+            and front-end technologies such as Node.js, Nest.js, React.js, and
+            Ruby on Rails. With a keen interest in crafting user-centric
+            solutions, I'm dedicated to leveraging my skills to drive impactful
+            projects forward. Fluent in English, I'm always eager to learn and
+            embrace new challenges in the ever-evolving tech landscape.
           </p>
           <div className="flex gap-2">
             <a
@@ -32,5 +33,5 @@ export const About = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
